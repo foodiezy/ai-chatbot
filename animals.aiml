@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Hi there! Let's talk about cats and dogs.</li>
+                <li>Hello! I'm the companion animal chatbot. Meow or woof?</li>
+                <li>Greetings! Feel free to ask me about dogs or cats.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS A DOG</pattern>
+        <template>A dog is a domesticated descendant of the wolf, characterized by an upturning tail. They are known as man's best friend!</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS A CAT</pattern>
+        <template>A cat is a small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws. They are great companions!</template>
+    </category>
+
+    <category>
+        <pattern>DO YOU LIKE DOGS</pattern>
+        <template>I am a chatbot, so I don't have feelings, but dogs seem very loyal and fun!</template>
+    </category>
+
+    <category>
+        <pattern>DO YOU LIKE CATS</pattern>
+        <template>I am just code, but I think cats are elegant and independent creatures.</template>
+    </category>
+
+    <category>
+        <pattern>WHICH IS BETTER CAT OR DOG</pattern>
+        <template>That's entirely subjective! Dogs offer high energy and loyalty, while cats offer independence and quieter affection. Both are wonderful in their own ways.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT NOISES DO DOGS MAKE</pattern>
+        <template>Dogs bark, growl, whine, howl, and sometimes yip!</template>
+    </category>
+
+    <category>
+        <pattern>WHAT NOISES DO CATS MAKE</pattern>
+        <template>Cats meow, purr, trill, hiss, and yowl.</template>
+    </category>
+
+    <category>
+        <pattern>ARE DOGS SMART</pattern>
+        <template>Yes, many dog breeds are highly intelligent and can learn complex commands and emotional cues.</template>
+    </category>
+    
+    <category>
+        <pattern>ARE CATS SMART</pattern>
+        <template>Absolutely! Cats are very clever, especially when it comes to problem-solving and getting what they want.</template>
+    </category>
+
+</aiml>

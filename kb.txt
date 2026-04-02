@@ -1,0 +1,25 @@
+# --- Ground Facts (Objects) ---
+Dog(Rex)
+Dog(Max)
+Dog(Spike)
+Dog(Rover)
+Cat(Whiskers)
+Cat(Bella)
+Cat(Luna)
+
+# --- Logical Rules (Taxonomy) ---
+all x.(Dog(x) -> Animal(x))
+all x.(Cat(x) -> Animal(x))
+all x.(Animal(x) -> NeedsFood(x))
+all x.(NeedsFood(x) -> NeedsWater(x))
+all x.(Animal(x) -> NeedsAir(x))
+
+# --- Logical Rules (Properties) ---
+all x.(Dog(x) -> Loyal(x))
+all x.(Cat(x) -> Independent(x))
+all x.(Dog(x) -> HasTail(x))
+all x.(Cat(x) -> HasTail(x))
+
+# --- Multi-valued Relations ---
+Likes(Rex, Bones)
+Chases(Dogs, Cats)
