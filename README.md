@@ -20,3 +20,5 @@ python chatbot.py
 
 ---
 *Academic Submission*
+
+> **Note:** Migrated from my university GitHub account — commit history starts fresh here.
